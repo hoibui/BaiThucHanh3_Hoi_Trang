@@ -243,6 +243,8 @@
             // btnGhi
             // 
             this.btnGhi.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnGhi.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnGhi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnGhi.Location = new System.Drawing.Point(408, 19);
             this.btnGhi.Name = "btnGhi";
             this.btnGhi.Size = new System.Drawing.Size(47, 23);
@@ -252,6 +254,7 @@
             // btnKhongGhi
             // 
             this.btnKhongGhi.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnKhongGhi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnKhongGhi.Location = new System.Drawing.Point(470, 19);
             this.btnKhongGhi.Name = "btnKhongGhi";
             this.btnKhongGhi.Size = new System.Drawing.Size(86, 23);
@@ -304,6 +307,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label6);
+            this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Name = "frmBanDoc";
             this.Text = "frmBanDoc";
             this.groupBox1.ResumeLayout(false);
